@@ -1,4 +1,6 @@
-word="mubin"
+import random
+choose=["Python", "Project", "Titan", "thanos", "Devil"]
+word=random.choice(choose)
 chances=len(word)
 guesses=[]
 done=False
